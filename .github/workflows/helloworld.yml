@@ -1,0 +1,10 @@
+name: "Hello World"
+
+on: [push]
+
+jobs:
+  dample:
+    name: Hello World job
+    runs-on: ubuntu-lateset
+    steps:
+      - run: echo "Hello World !"
